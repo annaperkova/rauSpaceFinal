@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230630171737">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=357be3c0-fed3-4fc4-b243-67551d162070&lang=ru_RU&_v=20230630171737" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__cont">
+					<div class="header__cont-pc">
+						<a href="home.html">
+							<img src="img/logoRed.svg" class="header__logo" alt="логотип">
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="header__link buttonText menu__item"><a href="about.html" class="menu__link">О нас</a></li>
+									<li class="header__link buttonText menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
+									<li class="header__link buttonText menu__item"><a href="blog.html" class="menu__link">Наш блог</a></li>
+									<li class="header__link buttonText menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+									<li class="header__link buttonText menu__item"><a href="business.html" class="menu__link">Проекты</a></li>
+								</ul>
+							</nav>
+						</div>
+						<a href="business.html" class="header__button">
+							<button class="buttonText">Российским производителям</button>
+						</a>
+					</div>
+
+					<div class="header__icon-cont">
+						<button type="button" class="header__icon icon-menu">
+							<span class="header__icon-mid"></span>
+							<span class="header__icon-back"></span>
+						</button>
+					</div>
+
+				</div>
+			</div>
+
+		</header>
+		<main class="home">
+			<section class="home__title">
+				<div class="title__container">
+					<h1>Мы автоматизируем <span>работу</span> и <span>повышаем</span> рентабельность продаж на маркетплейсах.</h1>
+					<div class="body1">Освобождаем от операционной деятельность и продвигаем бизнес проверенными на себе алгоритмами.</div>
+				</div>
+			</section>
+			<section class="home__banner">
+				<div class="banner__container">
+					<div class="banner__grid">
+						<div class="banner__stats">
+							<div class="banner__stats-row banner__stats-row--top">
+								<div class="banner__stats-left">
+									<h4>37</h4>
+									<h6>&nbsp;%</h6>
+								</div>
+								<div class="banner__stats-right body1">Средняя доходность одного магазина</div>
+							</div>
+							<div class="banner__stats-row banner__stats-row--center">
+								<div class="banner__stats-left">
+									<h4>34</h4>
+									<h6>&nbsp;тыс.</h6>
+								</div>
+								<div class="banner__stats-right body1">Суммарно продаж в месяц</div>
+							</div>
+							<div class="banner__stats-row banner__stats-row--baseline">
+								<div class="banner__stats-left">
+									<h4>154</h4>
+									<h6>&nbsp;млн.р.</h6>
+								</div>
+								<div class="banner__stats-right body1">Оборот собственных магазинов</div>
+							</div>
+						</div>
+						<div class="banner__projects">
+							<img src="img/homeBanner1.png" alt="Проекты">
+							<img src="img/homeBanner1mobile.png" alt="Проекты">
+							<a href="#" data-goto=".home__projects" class="banner__button--link">
+								<div class="banner__button-flex">
+									<h5>Проекты</h5>
+									<img src="img/arrowWhite.svg" alt="">
+								</div>
+							</a>
+						</div>
+						<a class="banner__company" href="about.html">
+							<div class="banner__company-button">
+								<div class="banner__button-flex">
+									<h5>О компании</h5>
+									<img src="img/arrowWhite.svg" alt="">
+								</div>
+							</div>
+						</a>
+						<div class="banner__services">
+							<img src="img/homeBanner2.png" alt="Услуги">
+							<img src="img/homeBanner2mobile.png" alt="Услуги">
+							<a href="services.html" class="banner__button--link">
+								<div class="banner__button-flex">
+									<h5>Услуги</h5>
+									<img src="img/arrowWhite.svg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="banner__clients">
+							<img src="img/homeBanner3.png" alt="Клиенты">
+							<a href="#" data-goto=".home__reviews" class="banner__button--link">
+								<div class="banner__button-flex">
+									<h5>Клиенты</h5>
+									<img src="img/arrowWhite.svg" alt="">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home__orderShort">
+				<div class="order__container order__container--full">
+					<div class="order__cont">
+						<div class="order__flex">
+							<div class="order__text">
+								<h2>Мы работаем, вы получаете прибыль!</h2>
+								<div class="services__comment body1">Наша команда берет на себя все операционные задачи. Мы
+									регистрируем и ведем магазин под ключ, собираем аналитику в едином отчете, подвигаем российских
+									производителей.
+								</div>
+							</div>
+							<div class="order">
+								<h4>Оставьте заявку сейчас</h4>
+
+								<form action="files/sendmail/sendmail.php" method="POST" id="homeFormShort">
+
+									<input type="tel" class="input order__input subtitle1" id="homeFormShort[tel]" name="homeFormShort[tel]" placeholder="Ваш номер телефона" pattern="^(8|\+7|7)[0-9]{10}$" required data-required data-validate title="Введите корректный номер телефона">
+
+									<div class="order__check checkbox">
+										<input id="homeFormShort[agree]" data-error="Ошибка" class="checkbox__input" type="checkbox" value="agree" name="homeFormShort[agree]">
+										<label for="homeFormShort[agree]" class="checkbox__label"><span class="checkbox__text caption">Вы согласны с политикой
+												конфиденциальности</span></label>
+									</div>
+									<button type="submit" id="homeFormShort[submit]" name="homeFormShort[submit]" value="Оставить заявку" class="button order__submit">
+										<div class="order__submit-name">
+											<span>Оставить заявку</span>
+											<img src="img/arrowWhite.svg" alt="">
+										</div>
+									</button>
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="home__services">
+				<div class="services__container">
+					<div class="cnt__narrow">
+						<div class="services__heading">
+							<h2>Мы предлагаем несколько услуг для вас</h2>
+							<div class="body1">Помогаем предпринимателям, избежать ошибок, которые прошли в развитии своих магазинов.</div>
+						</div>
+						<div class="services__grid">
+							<div class="services__img services__img-ibg">
+								<img src="img/services.png" alt="Фото сотрудников в офисе">
+							</div>
+							<div class="services__slider swiper">
+								<div class="services__wrapper swiper-wrapper">
+									<!-- Слайд 1 -->
+									<div class="services__slide swiper-slide">
+										<div class="services__list">
+											<div class="services__item">
+												<h4 class="services__number">01</h4>
+												<div class="services__text">
+													<h4>Создаем магазины</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под ключ, собираем аналитику в
+														едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+											<div class="services__item">
+												<h4 class="services__number">02</h4>
+												<div class="services__text">
+													<h4>Прорабатываем дизайн витрины</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под
+														ключ,
+														собираем аналитику в едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+											<div class="services__item">
+												<h4 class="services__number">03</h4>
+												<div class="services__text">
+													<h4>Продвигаем товары</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под
+														ключ,
+														собираем аналитику в едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+											<div class="services__item">
+												<h4 class="services__number">04</h4>
+												<div class="services__text">
+													<h4>Заполняем карточки</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под
+														ключ,
+														собираем аналитику в едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Слайд 2 -->
+									<div class="services__slide swiper-slide">
+										<div class="services__list">
+											<div class="services__item">
+												<h4 class="services__number">05</h4>
+												<div class="services__text">
+													<h4>Создаем магазины</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под ключ,
+														собираем аналитику в
+														едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+											<div class="services__item">
+												<h4 class="services__number">06</h4>
+												<div class="services__text">
+													<h4>Прорабатываем дизайн витрины</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под
+														ключ,
+														собираем аналитику в едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+											<div class="services__item">
+												<h4 class="services__number">07</h4>
+												<div class="services__text">
+													<h4>Продвигаем товары</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под
+														ключ,
+														собираем аналитику в едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+											<div class="services__item">
+												<h4 class="services__number">08</h4>
+												<div class="services__text">
+													<h4>Заполняем карточки</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под
+														ключ,
+														собираем аналитику в едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Слайд 3 -->
+									<div class="services__slide swiper-slide">
+										<div class="services__list">
+											<div class="services__item">
+												<h4 class="services__number">09</h4>
+												<div class="services__text">
+													<h4>Создаем магазины</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под ключ,
+														собираем аналитику в
+														едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+											<div class="services__item">
+												<h4 class="services__number">10</h4>
+												<div class="services__text">
+													<h4>Прорабатываем дизайн витрины</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под
+														ключ,
+														собираем аналитику в едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+											<div class="services__item">
+												<h4 class="services__number">11</h4>
+												<div class="services__text">
+													<h4>Продвигаем товары</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под
+														ключ,
+														собираем аналитику в едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+											<div class="services__item">
+												<h4 class="services__number">12</h4>
+												<div class="services__text">
+													<h4>Заполняем карточки</h4>
+													<div class="body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем магазин под
+														ключ,
+														собираем аналитику в едином отчете, подвигаем российских производителей.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="services__buttons button__row">
+								<div class="button__slider">
+									<button type="button" class="swiper-button-prev slider__back services__btn-prev">
+										<img src="img/sliderBack.svg" alt="Листать назад">
+									</button>
+									<button type="button" class="swiper-button-prev slider__next services__btn-next">
+										<img src="img/sliderNext.svg" alt="Листать вперед">
+									</button>
+								</div>
+								<button data-popup="#popupOrder" class="buttonPopup">
+									<div class="buttonPopup__flex">
+										<span>Оставить заявку</span>
+										<img src="img/arrowWhite.svg" alt="">
+									</div>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home__projects">
+				<div class="projects__container">
+					<div class="cnt__narrow">
+						<div class="projects__heading">
+							<h2>Наши проекты</h2>
+							<div class="body1">Нам доверяют селлеры из разных ниш и маркетплейсов.</div>
+						</div>
+						<div class="projects__flex-cont">
+							<div class="projects__flex">
+								<div class="projects__company">
+									<h4>Аврора</h4>
+									<div class="body1">
+										<span>Начало работы</span>
+										<span>&mdash;</span>
+										<span>май 2023</span>
+									</div>
+									<div class="body1">
+										<span>Количество SKU</span>
+										<span>&mdash;</span>
+										<span>май 2023</span>
+									</div>
+									<div class="body1">
+										<span>Платформа</span>
+										<span>&mdash;</span>
+										<span>Ozon</span>
+									</div>
+									<div class="body1">
+										<span>Категория магазина</span>
+										<span>&mdash;</span>
+										<span>Инструменты</span>
+									</div>
+								</div>
+
+								<div class="projects__results projects__results--white">
+									<h4>Темпы роста после нашей работы:</h4>
+									<ul class="projects__list">
+										<li class="body1">До 604 SKU увеличен ассортимент</li>
+										<li class="body1">1 330 000 человек посетило магазин благодаря продвижению</li>
+										<li class="body1">В 20 раз выросли заказы</li>
+										<li class="body1">300 000 посетителей - ежемесячный трафик</li>
+										<li class="body1 projects__list-last">На 128% увеличился оборот</li>
+									</ul>
+								</div>
+
+							</div>
+							<div class="projects__flex">
+								<div class="projects__company">
+									<h4>Аврора</h4>
+									<div class="body1">
+										<span>Начало работы</span>
+										<span>&mdash;</span>
+										<span>май 2023</span>
+									</div>
+									<div class="body1">
+										<span>Количество SKU</span>
+										<span>&mdash;</span>
+										<span>май 2023</span>
+									</div>
+									<div class="body1">
+										<span>Платформа</span>
+										<span>&mdash;</span>
+										<span>Ozon</span>
+									</div>
+									<div class="body1">
+										<span>Категория магазина</span>
+										<span>&mdash;</span>
+										<span>Инструменты</span>
+									</div>
+								</div>
+								<div class="projects__results projects__results--orange">
+									<h4>Темпы роста после нашей работы:</h4>
+									<ul class="projects__list">
+										<li class="body1">До 604 SKU увеличен ассортимент</li>
+										<li class="body1">1 330 000 человек посетило магазин благодаря продвижению</li>
+										<li class="body1">В 20 раз выросли заказы</li>
+										<li class="body1">300 000 посетителей - ежемесячный трафик</li>
+										<li class="body1">На 128% увеличился оборот</li>
+									</ul>
+								</div>
+							</div>
+							<div class="projects__flex projects__flex--last">
+								<div class="projects__company">
+									<h4>Аврора</h4>
+									<div class="body1">
+										<span>Начало работы</span>
+										<span>&mdash;</span>
+										<span>май 2023</span>
+									</div>
+									<div class="body1">
+										<span>Количество SKU</span>
+										<span>&mdash;</span>
+										<span>май 2023</span>
+									</div>
+									<div class="body1">
+										<span>Платформа</span>
+										<span>&mdash;</span>
+										<span>Ozon</span>
+									</div>
+									<div class="body1">
+										<span>Категория магазина</span>
+										<span>&mdash;</span>
+										<span>Инструменты</span>
+									</div>
+								</div>
+								<div class="projects__results projects__results--grey">
+									<h4>Темпы роста после нашей работы:</h4>
+									<ul class="projects__list">
+										<li class="body1">До 604 SKU увеличен ассортимент</li>
+										<li class="body1">1 330 000 человек посетило магазин благодаря продвижению</li>
+										<li class="body1">В 20 раз выросли заказы</li>
+										<li class="body1">300 000 посетителей - ежемесячный трафик</li>
+										<li class="body1">На 128% увеличился оборот</li>
+									</ul>
+								</div>
+							</div>
+							<button class="projects__button buttonText">Загрузить еще</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home__reviews">
+				<div class="reviews__container">
+					<div class="cnt__narrow">
+						<div class="reviews__heading">
+							<h2>Отзывы наших клиентов</h2>
+							<div class="body1">Мы помогаем начинающим предпринимателям, избежать ошибок, которые мы прошли в развитии своих магазинов.</div>
+						</div>
+						<div class="reviews__slider swiper">
+							<div class="reviews__wrapper swiper-wrapper">
+								<!-- Слайд 1 -->
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__flex">
+										<div class="reviews__slide-left">
+											<div class="reviews__img">
+												<img src="img/reviewClient.png" alt="Фото клиента">
+											</div>
+											<h4>Иван</h4>
+											<h4>Иванов</h4>
+											<div class="body1">Руководитель компании
+												Аврора</div>
+										</div>
+										<div class="reviews__slide-right">
+											<p class="body1">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+												laudantium, totam rem aperiam,
+												eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+												Nemo enim
+												ipsam
+												voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+												qui ratione
+												voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+												consectetur,
+												adipisci velit,
+												sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+												Ut enim
+												ad minima
+												veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+												consequatur? Quis
+												autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel
+												illum qui
+												dolorem
+												eum fugiat quo voluptas nulla pariatur?"</p>
+											<div class="body1">
+												<span>Платформа</span>
+												<span>&mdash;</span>
+												<span>Ozon</span>
+											</div>
+											<div class="body1 reviews__bottom">
+												<span>Категория магазина</span>
+												<span>&mdash;</span>
+												<span>Инструменты</span>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!-- Слайд 2 -->
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__flex">
+										<div class="reviews__slide-left">
+											<div class="reviews__img">
+												<img src="img/reviewClient.png" alt="Фото клиента">
+											</div>
+											<h4>Иван</h4>
+											<h4>Иванов</h4>
+											<div class="body1">Руководитель компании
+												Аврора</div>
+										</div>
+										<div class="reviews__slide-right">
+											<p class="body1">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+												laudantium, totam rem aperiam,
+												eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+												Nemo enim
+												ipsam
+												voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+												qui ratione
+												voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+												consectetur,
+												adipisci velit,
+												sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+												Ut enim
+												ad minima
+												veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+												consequatur? Quis
+												autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel
+												illum qui
+												dolorem
+												eum fugiat quo voluptas nulla pariatur?"</p>
+											<div class="body1">
+												<span>Платформа</span>
+												<span>&mdash;</span>
+												<span>Ozon</span>
+											</div>
+											<div class="body1">
+												<span>Категория магазина</span>
+												<span>&mdash;</span>
+												<span>Инструменты</span>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!-- Слайд 3 -->
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__flex">
+										<div class="reviews__slide-left">
+											<div class="reviews__img">
+												<img src="img/reviewClient.png" alt="Фото клиента">
+											</div>
+											<h4>Иван</h4>
+											<h4>Иванов</h4>
+											<div class="body1">Руководитель компании
+												Аврора</div>
+										</div>
+										<div class="reviews__slide-right">
+											<p class="body1">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+												laudantium, totam rem aperiam,
+												eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+												Nemo enim
+												ipsam
+												voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+												qui ratione
+												voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+												consectetur,
+												adipisci velit,
+												sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+												Ut enim
+												ad minima
+												veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+												consequatur? Quis
+												autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel
+												illum qui
+												dolorem
+												eum fugiat quo voluptas nulla pariatur?"</p>
+											<div class="body1">
+												<span>Платформа</span>
+												<span>&mdash;</span>
+												<span>Ozon</span>
+											</div>
+											<div class="body1">
+												<span>Категория магазина</span>
+												<span>&mdash;</span>
+												<span>Инструменты</span>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="reviews__slider-btn button__row">
+								<div class="button__slider">
+									<button type="button" class="reviews__btn-prev swiper-button-prev slider__back">
+										<img src="img/sliderBack.svg" alt="Листать назад">
+									</button>
+									<button type="button" class="reviews__btn-next swiper-button-next slider__next">
+										<img src="img/sliderNext.svg" alt="Листать вперед">
+									</button>
+								</div>
+								<button data-popup="#popupOrder" class="review_btn">
+									<div class="buttonPopup__flex">
+										<span>Оставить заявку</span>
+										<img src="img/arrowWhite.svg" alt="">
+									</div>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="reviews__video-contain">
+					<div class="reviews__video">
+						<div class="reviews-video__slider swiper">
+							<div class="reviews-video__wrapper swiper-wrapper">
+								<!-- Слайд 1 -->
+								<div class="reviews-video__slide swiper-slide">
+									<div class="reviews-video__img"><img src="img/video.png" alt=""></div>
+								</div>
+								<!-- Слайд 2 -->
+								<div class="reviews-video__slide swiper-slide">
+									<div class="reviews-video__img"><img src="img/video.png" alt=""></div>
+								</div>
+								<!-- Слайд 3 -->
+								<div class="reviews-video__slide swiper-slide">
+									<div class="reviews-video__img"><img src="img/video.png" alt=""></div>
+								</div>
+							</div>
+							<button type="button" class="swiper-button-prev slider__back reviews-video__btn-prev video-prev-pc">
+								<img src="img/sliderBack.svg" alt="Листать назад">
+							</button>
+							<button type="button" class="swiper-button-next slider__next reviews-video__btn-next video-next-pc">
+								<img src="img/sliderNext.svg" alt="Листать вперед">
+							</button>
+							<div class="reviews-video__buttons reviews-video__buttons--mobile">
+								<div class="reviews-video__button-slider">
+									<button type="button" class="swiper-button-prev reviews-video__btn-prev video-prev-mob slider__back">
+										<img src="img/sliderBack.svg" alt="Листать назад">
+									</button>
+									<button type="button" class="swiper-button-next reviews-video__btn-next video-next-mob slider__next">
+										<img src="img/sliderNext.svg" alt="Листать вперед">
+									</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="home__brands">
+				<div class="brands__container">
+					<div class="cnt__narrow">
+						<div class="brands__heading">
+							<h2>Нам доверяют крупнейшие бренды рынка e-commerce</h2>
+							<div class="body1">Применяем опыт и наши инструменты для повышения рентабельности продаж крупных и средних игроков в разных нишах: товары
+								для дома, одежда, товары повседневного спроса, детские товары и игрушки, техника и другие.</div>
+						</div>
+						<div class="brands__grid">
+							<img class="brands__img1" src="img/brand1.png" alt="">
+							<img class="brands__img2" src="img/brand2.png" alt="">
+							<img class="brands__img3" src="img/brand3.png" alt="">
+							<img class="brands__img4" src="img/brand4.png" alt="">
+							<img class="brands__img5" src="img/brand5.png" alt="">
+							<img class="brands__img6" src="img/brand6.png" alt="">
+							<img class="brands__img7" src="img/brand7.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home__orderFull">
+				<div class="order__container order__container--full">
+					<div class="order__cont order__cont--full">
+						<div class="cnt__narrow">
+							<div class="order__flex">
+								<div class="order__text">
+									<img src="img/star.svg" alt="">
+									<h2>Нам доверяют селлеры из разных отраслей</h2>
+									<div class="services__comment body1">Наша команда берет на себя все операционные задачи. Мы регистрируем и ведем
+										магазин под ключ, собираем аналитику в едином отчете, подвигаем российских производителей.
+									</div>
+								</div>
+								<div class="order">
+									<h4>Оставьте заявку сейчас</h4>
+
+									<form action="files/sendmail/sendmail.php" method="POST" id="homeFormFull">
+
+										<input type="text" class="input order__input subtitle1" id="homeFormFull[name]" name="homeFormFull[name]" placeholder="Ваше имя" required data-required data-validate title="Введите Ваше имя">
+
+										<input type="email" class="input order__input subtitle1" id="homeFormFull[email]" name="homeFormFull[email]" placeholder="Ваша электронная почта" data-required data-validate title="Введите корректный email">
+
+										<input type="tel" class="input order__input subtitle1" id="homeFormFull[tel]" name="homeFormFull[tel]" placeholder="Ваш номер телефона" pattern="^(8|\+7|7)[0-9]{10}$" required data-required data-validate title="Введите корректный номер телефона">
+
+										<div class="order__check checkbox">
+											<input id="homeFormFull[agree]" data-error="Ошибка" class="checkbox__input" type="checkbox" value="agree" name="homeFormFull[agree]">
+											<label for="homeFormFull[agree]" class="checkbox__label"><span class="checkbox__text caption">Вы согласны с политикой
+													конфиденциальности</span></label>
+										</div>
+										<button type="submit" id="homeFormFull[submit]" name="homeFormFull[submit]" value="Оставить заявку" class="button order__submit">
+											<div class="order__submit-name">
+												<span>Оставить заявку</span>
+												<img src="img/arrowWhite.svg" alt="">
+											</div>
+										</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home__paket">
+				<div class="paket__container">
+					<div class="cnt__narrow">
+						<div class="paket__heading">
+							<h2>Предоставляем пакеты услуг</h2>
+							<div class="body1">Забираем всю операционную деятельность и ведем ваш бизнес под ключ.
+							</div>
+						</div>
+					</div>
+					<div class="paket__slider swiper">
+						<div class="paket__wrapper swiper-wrapper">
+							<!-- Слайд 1 -->
+							<div class="paket__slide swiper-slide">
+								<div class="paket__offer paket__offer--red">
+									<div class="paket__offer-top">
+										<div class="paket__title">
+											<h4>Запуск магазина под ключ</h4>
+											<div class="paket__period subtitle1">Разово</div>
+										</div>
+										<div class="subtitle1 paket__subtitle">Список услуг</div>
+										<ul class="paket__list">
+											<li class="body1">Регистрация на маркетплейсе</li>
+											<li class="body1">Аудит и аналитика ассортимента</li>
+											<li class="body1">Заполнение карточек товаров</li>
+											<li class="body1">Консультации по повышению рентабельности продаж</li>
+										</ul>
+									</div>
+									<div class="paket__offer-bottom">
+										<h4 class="paket__price">от 20 000 ₽</h4>
+										<button class="paket__button buttonText">Подробнее</button>
+									</div>
+								</div>
+							</div>
+							<!-- Слайд 2 -->
+							<div class="paket__slide swiper-slide">
+								<div class="paket__offer paket__offer--orange">
+									<div class="paket__offer-top">
+										<div class="paket__title">
+											<h4>Ведение магазина под ключ</h4>
+											<div class="paket__period subtitle1">Ежемесячно</div>
+										</div>
+										<div class="subtitle1 paket__subtitle">Список услуг</div>
+										<ul class="paket__list">
+											<li class="body1">Личный менеджер</li>
+											<li class="body1">Аудит ассортимента и продаж</li>
+											<li class="body1">Заведение новых карточек товаров</li>
+											<li class="body1">Контент для карточек под ключ: seo описание, фото, видео и rich контент</li>
+											<li class="body1">Маркетинговая стратегия по продвижению товаров</li>
+											<li class="body1">Контроль остатков на складах</li>
+											<li class="body1">Взаимодействие с представителями маркетплейсов</li>
+										</ul>
+									</div>
+									<div class="paket__offer-bottom">
+										<h4 class="paket__price">от 20 000 ₽ + 3% от GMV</h4>
+										<button class="paket__button buttonText">Подробнее</button>
+									</div>
+								</div>
+							</div>
+							<!-- Слайд 3 -->
+							<div class="paket__slide swiper-slide">
+								<div class="paket__offer paket__offer--white">
+									<div class="paket__offer-text">
+										<div class="paket__title">
+											<h4>Продвижение товара</h4>
+											<div class=" paket__period subtitle1">Ежемесячно</div>
+										</div>
+										<div class="subtitle1 paket__subtitle">Список услуг</div>
+										<ul class="paket__list">
+											<li class="body1">Размещение и вывод в топ карточек товара</li>
+											<li class="body1">Создание контента + Rich</li>
+											<li class="body1">Сбор и анализ данных с личных кабинетов</li>
+										</ul>
+									</div>
+									<div class="paket__offer-bottom">
+										<h4 class="paket__price">от 20 000 ₽ + 3% от GMV</h4>
+										<button class="paket__button buttonText">Подробнее</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="paket__buttons paket__buttons--mobile">
+							<div class="paket__button-slider">
+								<button type="button" class="swiper-button-prev paket__btn-prev slider__back">
+									<img src="img/sliderBack.svg" alt="Листать назад">
+								</button>
+								<button type="button" class="swiper-button-next paket__btn-next slider__next">
+									<img src="img/sliderNext.svg" alt="Листать вперед">
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home__income">
+				<div class="income__container">
+					<div class="cnt__narrow">
+						<div class="income__heading">
+							<h2>На сколько можно увеличить прибыль с RauSpace?</h2>
+							<div class="body1">Просчитайте потенциальную доходность вашего магазина
+							</div>
+						</div>
+					</div>
+					<div class="income__brands">
+						<button class="income__brand">
+							<img class="income__icon" src="img/incomeWB.png" alt="Wildberries">
+							<div class="income__choose">
+								<div class="income__choose-frame"></div>
+								<img class="income__choose-img" src="img/choose.svg" alt="">
+							</div>
+						</button>
+						<button class="income__brand">
+							<img class="income__icon" src="img/incomeOzon.png" alt="Ozon">
+							<div class="income__choose">
+								<div class="income__choose-frame"></div>
+								<img class="income__choose-img" src="img/choose.svg" alt="">
+							</div>
+						</button>
+						<button class="income__brand">
+							<img class="income__icon" src="img/incomeYandex.png" alt="Yandex Market">
+							</d>
+							<div class="income__choose">
+								<div class="income__choose-frame"></div>
+								<img class="income__choose-img" src="img/choose.svg" alt="">
+							</div>
+						</button>
+						<button class="income__brand">
+							<img class="income__icon" src="img/incomeSber.png" alt="Сбер Мегамаркет">
+							<div class="income__choose">
+								<div class="income__choose-frame"></div>
+								<img class="income__choose-img" src="img/choose.svg" alt="">
+							</div>
+						</button>
+					</div>
+					<div class="income__table income__wb">
+						<h4 class="income__table-heading">Wildberries</h4>
+						<form action="post" class="income__form" name="wb" id="wb">
+							<div class="income__item">
+								<label for="wb[category]" class="subtitle1">Выберите тематику вашего магазина</label>
+								<select name="wb[category]" data-class-modif="form" class="subtitle1" id="wb[category]" required data-scroll>
+									<option value="" disabled selected>Выбрать</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+								</select>
+							</div>
+							<div class="income__item">
+								<label for="wb[sku]" class="subtitle1">Количество SKU</label>
+								<input type="number" class="income__input subtitle1" id="wb[sku]" name="wb[sku]" placeholder="Штук" required>
+							</div>
+							<div class="income__item">
+								<label for="wb[volume]" class="subtitle1">Примерный оборот</label>
+								<input type="number" class="income__input subtitle1" id="wb[volume]" name="wb[volume]" placeholder="руб" required>
+							</div>
+							<div class="income__item">
+								<label for="wb[count]" class="subtitle1">Стоимость</label>
+								<div class="income__count-div">
+									<h4 id="wb[count]" class="income__count">20 000 ₽</h4>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="income__table income__ozon">
+						<h4 class="income__table-heading">Ozon</h4>
+						<form action="post" class="income__form" name="ozon" id="ozon">
+							<div class="income__item">
+								<label for="ozon[category]" class="subtitle1">Выберите тематику вашего магазина</label>
+								<select name="ozon[category]" data-class-modif="form" class="subtitle1" id="ozon[category]" required data-scroll>
+									<option value="" disabled selected>Выбрать</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+								</select>
+							</div>
+							<div class="income__item">
+								<label for="ozon[sku]" class="subtitle1">Количество SKU</label>
+								<input type="number" class="income__input subtitle1" id="ozon[sku]" name="ozon[sku]" placeholder="Штук" required>
+							</div>
+							<div class="income__item">
+								<label for="ozon[volume]" class="subtitle1">Примерный оборот</label>
+								<input type="number" class="income__input subtitle1" id="ozon[volume]" name="ozon[volume]" placeholder="руб" required>
+							</div>
+							<div class="income__item">
+								<label for="ozon[count]" class="subtitle1">Стоимость</label>
+								<div class="income__count-div">
+									<h4 id="ozon[count]" class="income__count">20 000 ₽</h4>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="income__table income__yandex">
+						<h4 class="income__table-heading">Яндекс Маркет</h4>
+						<form action="post" class="income__form" name="yandex" id="yandex">
+							<div class="income__item">
+								<label for="yandex[category]" class="subtitle1">Выберите тематику вашего магазина</label>
+								<select name="yandex[category]" data-class-modif="form" class="subtitle1" id="yandex[category]" required data-scroll>
+									<option value="" disabled selected>Выбрать</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+								</select>
+							</div>
+							<div class="income__item">
+								<label for="yandex[sku]" class="subtitle1">Количество SKU</label>
+								<input type="number" class="income__input subtitle1" id="yandex[sku]" name="yandex[sku]" placeholder="Штук" required>
+							</div>
+							<div class="income__item">
+								<label for="yandex[volume]" class="subtitle1">Примерный оборот</label>
+								<input type="number" class="income__input subtitle1" id="yandex[volume]" name="yandex[volume]" placeholder="руб" required>
+							</div>
+							<div class="income__item">
+								<label for="yandex[count]" class="subtitle1">Стоимость</label>
+								<div class="income__count-div">
+									<h4 id="yandex[count]" class="income__count">20 000 ₽</h4>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="income__table income__sber">
+						<h4 class="income__table-heading">Сбер Мегамаркет</h4>
+						<form action="post" class="income__form" name="sber" id="sber">
+							<div class="income__item">
+								<label for="sber[category]" class="subtitle1">Выберите тематику вашего магазина</label>
+								<select name="sber[category]" data-class-modif="form" class="subtitle1" id="sber[category]" required data-scroll>
+									<option value="" disabled selected>Выбрать</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+									<option value="toys">Игрушки</option>
+									<option value="beauty">Красота</option>
+									<option value="electronics">Электроника</option>
+								</select>
+							</div>
+							<div class="income__item">
+								<label for="sber[sku]" class="subtitle1">Количество SKU</label>
+								<input type="number" class="income__input subtitle1" id="sber[sku]" name="sber[sku]" placeholder="Штук" required>
+							</div>
+							<div class="income__item">
+								<label for="sber[volume]" class="subtitle1">Примерный оборот</label>
+								<input type="number" class="income__input subtitle1" id="sber[volume]" name="sber[volume]" placeholder="руб" required>
+							</div>
+							<div class="income__item">
+								<label for="sber[count]" class="subtitle1">Стоимость</label>
+								<div class="income__count-div">
+									<h4 id="sber[count]" class="income__count">20 000 ₽</h4>
+								</div>
+							</div>
+						</form>
+					</div>
+
+					<div class="income__caption caption">Данный расчет происходит на основе данных, которые мы получили при работе с нашими клиентами.</div>
+					<div class="income__bottom">
+						<div class="income__button-cont">
+							<button data-popup="#popupOrder" class="buttonPopup button income__button">
+								<div class="buttonPopup__flex">
+									<span>Оставить заявку</span>
+									<img src="img/arrowWhite.svg" alt="">
+								</div>
+							</button>
+						</div>
+						<div class="income__bottom-itog">
+							<h4>Итог:</h4>
+							<h4>20 000 ₽</h4>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home__other">
+				<div class="other__container">
+					<div class="cnt__narrow">
+						<div class="other__heading">
+							<h2>Другие наши услуги для селлеров</h2>
+							<div class="body1">Закрываем потребность предпринимателей во всех направлениях
+							</div>
+						</div>
+					</div>
+					<div class="other__slider swiper">
+						<div class="other__wrapper swiper-wrapper">
+							<!-- Слайд 1 -->
+							<div class="other__slide swiper-slide">
+								<div class="other__item">
+									<div class="other__item-top">
+										<img class="other__item-img" src="img/otherMarket.svg" alt="">
+										<div class="other__item-text">
+											<h4>Подбор товара для маркетплейсов в Китае</h4>
+											<p class="body1">Наша команда в Китае: найдет производителя, подберет качественный товар, предоставит отчетность и
+												образцы, наладит
+												взаимодействие с поставщиками на постоянной основе.</p>
+										</div>
+									</div>
+									<button data-popup="#popupOrder" class="buttonPopup button">
+										<div class="buttonPopup__flex">
+											<span>Оставить заявку</span>
+											<img src="img/arrowWhite.svg" alt="">
+										</div>
+									</button>
+								</div>
+							</div>
+							<!-- Слайд 2 -->
+							<div class="other__slide swiper-slide">
+								<div class="other__item other__item--pink">
+									<div class="other__item-top">
+										<img class="other__item-img" src="img/otherImport.svg" alt="">
+										<h4>Импорт</h4>
+										<p class="body1">Организуем импорт товара от производителя до склада в Москве под ключ. Сделаем таможенное
+											оформление с поверенными
+											брокерами и наладим международную логистику с надежными перевозчиками на постоянной основе.</p>
+									</div>
+									<button data-popup="#popupOrder" class="buttonPopup button">
+										<div class="buttonPopup__flex">
+											<span>Оставить заявку</span>
+											<img src="img/arrowWhite.svg" alt="">
+										</div>
+									</button>
+								</div>
+							</div>
+							<!-- Слайд 3 -->
+							<div class="other__slide swiper-slide">
+								<div class="other__item">
+									<div class="other__item-top">
+										<img class="other__item-img" src="img/otherLogistics.svg" alt="">
+										<h4>Фулфилмент и логистика</h4>
+										<p class="body1">FBS по лучшей цене: заберем товар со склада или от поставщика, упакуем промаркируем, заведем
+											остатки в личные кабинеты,
+											подготовим к продаже и отгрузим в пункты приёма. У нас нет условий по остаткам, поэтому не нужно
+											замораживать большие партии товара в ожидании продаж.</p>
+									</div>
+									<button data-popup="#popupOrder" class="buttonPopup button">
+										<div class="buttonPopup__flex">
+											<span>Оставить заявку</span>
+											<img src="img/arrowWhite.svg" alt="">
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="other__buttons other__buttons--mobile">
+							<div class="other__button-slider">
+								<button type="button" class="swiper-button-prev other__btn-prev slider__back">
+									<img src="img/sliderBack.svg" alt="Листать назад">
+								</button>
+								<button type="button" class="swiper-button-next other__btn-next slider__next">
+									<img src="img/sliderNext.svg" alt="Листать вперед">
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home__blog">
+				<div class="blog__container">
+					<div class="cnt__narrow">
+						<div class="blog__heading">
+							<h2>Наш блог</h2>
+							<div class="body1">Делимся опытом и знаниями экспертов рынка.</div>
+						</div>
+					</div>
+					<div class="blog__grid">
+						<div class="blog__1">
+							<div class="blog__buttons">
+								<div class="button__slider">
+									<button type="button" class="blog__btn-prev swiper-button-prev slider__back">
+										<img src="img/sliderBack.svg" alt="Листать назад">
+									</button>
+									<button type="button" class="blog__btn-next swiper-button-next slider__next">
+										<img src="img/sliderNext.svg" alt="Листать вперед">
+									</button>
+								</div>
+								<a href="blog.html" class="blog__link">
+									<div class="blog__link-flex">
+										<div class="buttonText">Читать наш блог</div>
+										<img src="img/blogArrowRed.svg" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="blog__slider swiper">
+								<div class="blog__wrapper swiper-wrapper">
+									<!-- Слайд 1 -->
+									<div class="blog__slide swiper-slide">
+										<div class="blog__main">
+											<a href="article.html" class="blog__link">
+												<div class="blog__title">
+													<div class="blog__title-left">
+														<div class="blog__date subtitle1">20 мая 2023</div>
+														<div class="blog__tag-white">
+															<img src="img/blogTagWhite.svg" alt="">
+															<div class="subtitle1">OZON</div>
+														</div>
+													</div>
+													<div class="blog__title-right">
+														<div class="blog__tag-black">
+															<img src="img/blogTagBlack.svg" alt="">
+															<div class="subtitle2">OZON</div>
+														</div>
+														<h4 class="blog__name">Как выбрать Биддер для управления рекламой и ставками
+															на Вайлдберриз</h4>
+													</div>
+												</div>
+												<img class="blog__arrow" src="img/blogArrowWhite.svg" alt="">
+												<img class="blog__photo" src="img/blogPhoto1.png" alt="">
+											</a>
+										</div>
+									</div>
+									<!-- Слайд 2 -->
+									<div class="blog__slide swiper-slide">
+										<div class="blog__main">
+											<a href="article.html" class="blog__link">
+												<div class="blog__title">
+													<div class="blog__title-left">
+														<div class="blog__date subtitle1">20 мая 2023</div>
+														<div class="blog__tag-white">
+															<img src="img/blogTagWhite.svg" alt="">
+															<div class="subtitle1">OZON</div>
+														</div>
+													</div>
+													<div class="blog__title-right">
+														<div class="blog__tag-black">
+															<img src="img/blogTagBlack.svg" alt="">
+															<div class="subtitle2">OZON</div>
+														</div>
+														<h4 class="blog__name">Как выбрать Биддер для управления рекламой и ставками
+															на Вайлдберриз</h4>
+													</div>
+												</div>
+												<img class="blog__arrow" src="img/blogArrowWhite.svg" alt="">
+												<img class="blog__photo" src="img/blogPhoto1.png" alt="">
+											</a>
+										</div>
+									</div>
+									<!-- Слайд 3 -->
+									<div class="blog__slide swiper-slide">
+										<div class="blog__main">
+											<a href="article.html" class="blog__link">
+												<div class="blog__title">
+													<div class="blog__title-left">
+														<div class="blog__date subtitle1">20 мая 2023</div>
+														<div class="blog__tag-white">
+															<img src="img/blogTagWhite.svg" alt="">
+															<div class="subtitle1">OZON</div>
+														</div>
+													</div>
+													<div class="blog__title-right">
+														<div class="blog__tag-black">
+															<img src="img/blogTagBlack.svg" alt="">
+															<div class="subtitle2">OZON</div>
+														</div>
+														<h4 class="blog__name">Как выбрать Биддер для управления рекламой и ставками
+															на Вайлдберриз</h4>
+													</div>
+												</div>
+												<img class="blog__arrow" src="img/blogArrowWhite.svg" alt="">
+												<img class="blog__photo" src="img/blogPhoto1.png" alt="">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="blog__fullcolor blog__2">
+							<a href="article.html" class="blog__link">
+								<div class="blog__fullcolor-title">
+									<div class="blog__fullcolor-tags">
+										<div class="blog__fullcolor-date subtitle1">20 мая 2023</div>
+										<div class="blog__fullcolor-tag">
+											<img src="img/blogTagWhite.svg" alt="">
+											<div class="subtitle1">OZON</div>
+										</div>
+									</div>
+									<h4 class="blog__fullcolor-name">Как выбрать Биддер для управления рекламой и ставками на
+										Вайлдберриз</h4>
+								</div>
+								<div class="blog__arrow-read">
+									<div class="buttonText">Читать статью</div>
+									<img src="img/blogArrowWhite.svg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="blog__small blog__3">
+							<a href="article.html" class="blog__link">
+								<div class="blog__small-title">
+									<div class="blog__small-tags">
+										<div class="blog__small-date subtitle1">20 мая 2023</div>
+										<div class="blog__small-tag">
+											<img src="img/blogTagWhite.svg" alt="">
+											<div class="subtitle1">OZON</div>
+										</div>
+									</div>
+									<h4 class="blog__small-name">Как выбрать Биддер для управления рекламой и ставками на
+										Вайлдберриз</h4>
+								</div>
+								<div class="blog__arrow-read">
+									<div class="buttonText">Читать статью</div>
+									<img src="img/blogArrowWhite.svg" alt="">
+								</div>
+								<img class="blog__photo" src="img/blogPhoto2.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home__questions">
+				<div class="questions__container">
+					<div class="cnt__narrow">
+						<div class="questions__heading">
+							<h2>Остались вопросы</h2>
+							<div class="body1">Применяем опыт и наши инструменты для повышения рентабельности продаж крупных и средних игроков в разных нишах: товары
+								для дома, одежда, товары повседневного спроса, детские товары и игрушки, техника и другие.
+							</div>
+						</div>
+
+						<div data-spollers class="questions__spollers spollers">
+							<details class="questions__item spollers__item">
+								<summary class="questions__title spollers__title subtitle1">
+									<div>Могу ли я работать с вами, если у меня нет магазина и опыта в продажах на маркетплейсах?</div>
+									<img src="img/homeQuestionsSpoiler.svg" alt="">
+								</summary>
+								<div class="questions__body spollers__body body1">Да, мы запускаем и ведем магазины под ключ. Поможем подобрать товар и выполним всю операционную работу. С нашей командой
+									вы можете инвестировать в магазин и получать прибыль или избежать ошибок на старте и сократить риски.</div>
+							</details>
+							<details class="questions__item spollers__item">
+								<summary class="questions__title spollers__title subtitle1">
+									<div>Работаете ли вы с производителями товаров?</div>
+									<img src="img/homeQuestionsSpoiler.svg" alt="">
+								</summary>
+								<div class="questions__body spollers__body body1">Да, мы запускаем и ведем магазины под ключ. Поможем подобрать товар и
+									выполним всю операционную работу. С нашей командой
+									вы можете инвестировать в магазин и получать прибыль или избежать ошибок на старте и сократить риски.</div>
+							</details>
+							<details class="questions__item spollers__item">
+								<summary class="questions__title spollers__title subtitle1">
+									<div>Работаете ли вы с производителями товаров?</div>
+									<img src="img/homeQuestionsSpoiler.svg" alt="">
+								</summary>
+								<div class="questions__body spollers__body body1">Да, мы запускаем и ведем магазины под ключ. Поможем подобрать товар и
+									выполним всю операционную работу. С нашей командой
+									вы можете инвестировать в магазин и получать прибыль или избежать ошибок на старте и сократить риски.</div>
+							</details>
+							<details class="questions__item spollers__item">
+								<summary class="questions__title spollers__title subtitle1">
+									<div>Работаете ли вы с производителями товаров?</div>
+									<img src="img/homeQuestionsSpoiler.svg" alt="">
+								</summary>
+								<div class="questions__body spollers__body body1">Да, мы запускаем и ведем магазины под ключ. Поможем подобрать товар и
+									выполним всю операционную работу. С нашей командой
+									вы можете инвестировать в магазин и получать прибыль или избежать ошибок на старте и сократить риски.</div>
+							</details>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="home__media">
+				<div class="media__container">
+					<div class="cnt__narrow">
+						<div class="media__heading">
+							<h2>СМИ о нас</h2>
+							<div class="body1">Уникальные инструменты доступны каждому
+							</div>
+						</div>
+						<div class="media__buttons media__buttons--pc">
+							<div class="media__button-slider">
+								<button type="button" class="swiper-button-prev media__btn-prev slider__back">
+									<img src="img/sliderBack.svg" alt="Листать назад">
+								</button>
+								<button type="button" class="swiper-button-next media__btn-next slider__next">
+									<img src="img/sliderNext.svg" alt="Листать вперед">
+								</button>
+							</div>
+
+						</div>
+					</div>
+					<div class="media__slider swiper">
+						<div class="media__wrapper swiper-wrapper">
+							<!-- Слайд 1 -->
+							<div class="media__slide swiper-slide">
+								<div class="media__item">
+									<div class="media__item-top">
+										<img class="media__item-img" src="img/homeMediaLogo.svg" alt="">
+										<h4>Оплата за заказы, а не пустые клики:</h4>
+										<p class="body1">Операционный партнер крупных маркетплейсов объявил о запуске инновационного продукта — сервиса
+											для гибкого управления
+											рекламными ставками.</p>
+									</div>
+									<a href="/" class="media__link">
+										<div class="media__link-flex">
+											<div class="buttonText">Читать наш блог</div>
+											<img src="img/blogArrowRed.svg" alt="">
+										</div>
+									</a>
+								</div>
+							</div>
+							<!-- Слайд 2 -->
+							<div class="media__slide swiper-slide">
+								<div class="media__item">
+									<div class="media__item-top">
+										<img class="media__item-img" src="img/homeMediaLogo.svg" alt="">
+										<h4>Оплата за заказы, а не пустые клики:</h4>
+										<p class="body1">Операционный партнер крупных маркетплейсов объявил о запуске инновационного продукта — сервиса
+											для гибкого управления
+											рекламными ставками.</p>
+									</div>
+									<a href="/" class="media__link">
+										<div class="media__link-flex">
+											<div class="buttonText">Читать наш блог</div>
+											<img src="img/blogArrowRed.svg" alt="">
+										</div>
+									</a>
+								</div>
+							</div>
+							<!-- Слайд 3 -->
+							<div class="media__slide swiper-slide">
+								<div class="media__item">
+									<div class="media__item-top">
+										<img class="media__item-img" src="img/homeMediaLogo.svg" alt="">
+										<h4>Оплата за заказы, а не пустые клики:</h4>
+										<p class="body1">Операционный партнер крупных маркетплейсов объявил о запуске инновационного продукта — сервиса
+											для гибкого управления
+											рекламными ставками</p>
+									</div>
+									<a href="/" class="media__link">
+										<div class="media__link-flex">
+											<div class="buttonText">Читать наш блог</div>
+											<img src="img/blogArrowRed.svg" alt="">
+										</div>
+									</a>
+								</div>
+							</div>
+							<!-- Слайд 4 -->
+							<div class="media__slide swiper-slide">
+								<div class="media__item">
+									<div class="media__item-top">
+										<img class="media__item-img" src="img/homeMediaLogo.svg" alt="">
+										<h4>Оплата за заказы, а не пустые клики:</h4>
+										<p class="body1">Операционный партнер крупных маркетплейсов объявил о запуске инновационного продукта — сервиса
+											для гибкого управления
+											рекламными ставками</p>
+									</div>
+									<a href="/" class="media__link">
+										<div class="media__link-flex">
+											<div class="buttonText">Читать наш блог</div>
+											<img src="img/blogArrowRed.svg" alt="">
+										</div>
+									</a>
+								</div>
+							</div>
+							<!-- Слайд 5 -->
+							<div class="media__slide swiper-slide">
+								<div class="media__item">
+									<div class="media__item-top">
+										<img class="media__item-img" src="img/homeMediaLogo.svg" alt="">
+										<h4>Оплата за заказы, а не пустые клики:</h4>
+										<p class="body1">Операционный партнер крупных маркетплейсов объявил о запуске инновационного продукта — сервиса
+											для гибкого управления
+											рекламными ставками</p>
+									</div>
+									<a href="/" class="media__link">
+										<div class="media__link-flex">
+											<div class="buttonText">Читать наш блог</div>
+											<img src="img/blogArrowRed.svg" alt="">
+										</div>
+									</a>
+								</div>
+							</div>
+							<!-- Слайд 6 -->
+							<div class="media__slide swiper-slide">
+								<div class="media__item">
+									<div class="media__item-top">
+										<img class="media__item-img" src="img/homeMediaLogo.svg" alt="">
+										<h4>Оплата за заказы, а не пустые клики:</h4>
+										<p class="body1">Операционный партнер крупных маркетплейсов объявил о запуске инновационного продукта — сервиса
+											для гибкого управления
+											рекламными ставками</p>
+									</div>
+									<a href="/" class="media__link">
+										<div class="media__link-flex">
+											<div class="buttonText">Читать наш блог</div>
+											<img src="img/blogArrowRed.svg" alt="">
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="media__buttons media__buttons--mobile">
+						<div class="media__button-slider">
+							<button type="button" class="swiper-button-prev media__btn-prev slider__back">
+								<img src="img/sliderBack.svg" alt="Листать назад">
+							</button>
+							<button type="button" class="swiper-button-next media__btn-next slider__next">
+								<img src="img/sliderNext.svg" alt="Листать вперед">
+							</button>
+						</div>
+					</div>
+				</div>
+				<div data-popup="#popupReply" class="technical"></div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__contacts">
+						<h2>Контакты</h2>
+						<div class="footer__map map" id="map">
+							<div></div>
+						</div>
+						<h6>Адрес</h6>
+						<h4 class="footer__h4">Абрикосовский пер., 2, Москва, 119991</h4>
+						<div class="footer__flex">
+							<div>
+								<h6>Телефон</h6>
+								<h4><a href="tel:+7999775545">8-999-77-55-45</a></h4>
+							</div>
+							<div>
+								<h6>Почта</h6>
+								<h4><a href="mailto:rauspace@site.ru">rauspace@site.ru</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="footer__order">
+						<div class="order order--w100">
+							<h4>Оставьте заявку сейчас</h4>
+							<form action="files/sendmail/sendmail.php" method="POST" id="footerForm">
+								<input type="text" class="input order__input subtitle1" id="footerForm[name]" name="footerForm[name]" placeholder="Ваше имя" required data-required data-validate title="Введите Ваше имя">
+								<input type="email" class="input order__input subtitle1" id="footerForm[email]" name="footerForm[email]" placeholder="Ваша электронная почта" required data-required data-validate title="Введите корректный email">
+								<input type="tel" class="input order__input subtitle1" id="footerForm[tel]" name="footerForm[tel]" placeholder="Ваш номер телефона" pattern="^(8|\+7|7)[0-9]{10}$" required data-required data-validate title="Введите корректный номер телефона">
+								<div class="order__check checkbox">
+									<input id="footerForm[agree]" data-error="Ошибка" class="checkbox__input" type="checkbox" value="agree" name="footerForm[agree]">
+									<label for="footerForm[agree]" class="checkbox__label"><span class="checkbox__text caption">Вы согласны с политикой
+											конфиденциальности</span></label>
+								</div>
+								<button type="submit" id="footerForm[submit]" name="footerForm[submit]" value="Оставить заявку" class="button order__submit">
+									<div class="order__submit-name">
+										<span>Оставить заявку</span>
+										<img src="img/arrowWhite.svg" alt="">
+									</div>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__nav">
+						<a class="footer__main" href="home.html">
+							<img src="img/logoWhite.svg" class="footer__logo" alt="логотип">
+						</a>
+						<ul class="footer__list">
+							<li class="footer__link footer__link1"><a href="about.html">О нас</a></li>
+							<li class="footer__link footer__link2"><a href="services.html">Услуги</a></li>
+							<li class="footer__link footer__link3"><a href="blog.html">Наш блог</a></li>
+							<li class="footer__link footer__link4"><a href="contacts.html">Контакты</a></li>
+							<li class="footer__link footer__link5"><a href="business.html">Проекты</a></li>
+						</ul>
+
+					</div>
+					<div class="footer__social">
+						<ul class="footer__social-list">
+							<li class="footer__social-img footer__social-img--top">
+								<a href="#"><img src="img/socialVk.svg" alt="Вконтакте"></a>
+							</li>
+							<li class="footer__social-img footer__social-img--top">
+								<a href="#"><img src="img/socialOk.svg" alt="Одноклассники"></a>
+							</li>
+							<li class="footer__social-img footer__social-img--top">
+								<a href="#"><img src="img/socialTg.svg" alt="Telegram"></a>
+							</li>
+							<li class="footer__social-img footer__social-img--top">
+								<a href="#"><img src="img/socialDzen.svg" alt="Дзен"></a>
+							</li>
+							<li class="footer__social-img footer__social-img--bottom">
+								<a href="#"><img src="img/socialYoutube.svg" alt="Youtube"></a>
+							</li>
+							<li class="footer__social-img footer__social-img--bottom">
+								<a href="#"><img src="img/socialWhatsapp.svg" alt="Whatsapp"></a>
+							</li>
+							<li class="footer__social-img footer__social-img--bottom">
+								<a href="#"><img src="img/socialLink.svg" alt="Ссылка"></a>
+							</li>
+						</ul>
+
+						<a href="policy.html" class="footer__policy"><span>Политика конфиденциальности</span></a>
+						<div>© 2023</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popupOrder" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popupOrder__content popup__content">
+				<div class="popup__body popup__order">
+					<div class="popup__title">
+						<h4>Заявка на сотрудничество</h4>
+						<button data-close type="button" class="popup__close">
+							<img src="img/close.svg" alt="">
+						</button>
+					</div>
+					<div class="body1">Оставьте контактные данные, мы свяжемся с Вами в ближайшее время</div>
+
+					<form action="files/sendmail/sendmail.php" method="POST" id="popupForm">
+
+						<input type="text" class="input order__input subtitle1" id="popupForm[name]" name="popupForm[name]" placeholder="Ваше имя" required data-required data-validate title="Введите Ваше имя">
+
+						<input type="email" class="input order__input subtitle1" id="popupForm[email]" name="popupForm[email]" placeholder="Ваша электронная почта" data-required data-validate title="Введите корректный email">
+
+						<input type="tel" class="input order__input subtitle1" id="popupForm[tel]" name="popupForm[tel]" placeholder="Ваш номер телефона" pattern="^(8|\+7|7)[0-9]{10}$" required data-required data-validate title="Введите корректный номер телефона">
+
+						<div class="order__check checkbox">
+							<input id="popupForm[agree]" data-error="Ошибка" class="checkbox__input" type="checkbox" value="agree" name="popupForm[agree]">
+							<label for="popupForm[agree]" class="checkbox__label"><span class="checkbox__text caption">Вы согласны с
+									политикой
+									конфиденциальности</span></label>
+						</div>
+						<button type="submit" id="homeFormFull[submit]" name="homeFormFull[submit]" value="Оставить заявку" class="button order__submit">
+							<div class="order__submit-name">
+								<span>Оставить заявку</span>
+								<img src="img/arrowWhite.svg" alt="">
+							</div>
+						</button>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popupReply" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popupReply__content popup__content">
+				<div class="popup__body popup__reply">
+					<div class="popup__title">
+						<h4>Заявка на сотрудничество</h4>
+						<button data-close type="button" class="popup__close">
+							<img src="img/close.svg" alt="">
+						</button>
+					</div>
+					<div class="popup__reply-cnt">
+						<h5>Ваша заявка получена. Мы с вами свяжемся в ближайшее время. Спасибо.</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popupServices" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popupServices__content popup__content">
+				<div class="popup__body popup__reply">
+					<div class="popupServices__title">
+						<h4>Список услуг</h4>
+						<button data-close type="button" class="popupServices__close popup__close">
+							<img src="img/close2.svg" alt="">
+						</button>
+					</div>
+					<div class="sidebar__flex">
+						<a href="#">Наши услуги</a>
+						<a href="#">Пакеты услуг</a>
+					</div>
+					<ul class="sidebar__list">
+						<li><a href="#">Создаем магазины</a></li>
+						<li><a href="#">Прорабатываем дизайн витрины</a></li>
+						<li><a href="#">Продвигаем товары</a></li>
+						<li><a href="#">Заполняем карточки</a></li>
+						<li><a href="#">Создаем Rich контент</a></li>
+						<li><a href="#">Анализируем рентабельность продаж</a></li>
+						<li><a href="#">Ведем учет SKU и аналитику</a></li>
+						<li><a href="#">Оптимизируем ассортимент</a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20230630171737"></script>
+</body>
+
+</html>
